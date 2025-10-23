@@ -40,7 +40,7 @@ if user_input:
         st.write(answer)
     st.session_state.history.append({"role": "assistant", "content": answer})
     # clear input box for next message
-    st.experimental_rerun()
+    #st.experimental_rerun()
 
 # 4. Display history (optional)
 for msg in st.session_state.history:
